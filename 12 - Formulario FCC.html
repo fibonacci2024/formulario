@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <h1 id="title">Mi Formulario</h1>
+  <p id="description">A continuación debes llenar el siguiente formulario, por favor no dejes ninguna respuesta vacia
+  </p>
+  <form id="survey-form">
+  <label id="name-label">nombre</label><input id="name" type="text" required placeholder="Ingresa tu nombre">
+  <br>
+  <label id="email-label">email</label><input id="email" type="email" required placeholder="nombre@correo.com">
+  <br>
+  <label id="number-label">numero</label><input id="number" type="number" required min="0" max="10" placeholder="5">
+  <br>
+  <select id="dropdown">
+    <option>Guatemala
+    <option>Mexico
+  </select>
+  <input type="radio" value="XX" name="genero">Masculino
+  <input type="radio" value="XY" name="genero">Femenino
+    <input type="radio" value="U" name="genero">Desconocido
+  <br>
+
+  <input type="checkbox" value="1">Niño
+  <br>
+  <input type="Checkbox" value="2">Adolecente
+  <br>
+  <input type="Checkbox" value="3">Joven
+  <br>
+  <input type="Checkbox" value="4">Adulto
+  <br>
+  <input type="Checkbox" value="5">Envejeciente
+  <br>
+  <textarea row="30" cols="40"></textarea>
+    <input id="submit" type="submit" value="Enviar">
+  </form>
